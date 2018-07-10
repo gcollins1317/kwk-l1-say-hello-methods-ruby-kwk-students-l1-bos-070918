@@ -1,5 +1,5 @@
 def say_hello
-  name = gets.chomp
+  name = " "
   puts "Hello #{name}"
 end
 
