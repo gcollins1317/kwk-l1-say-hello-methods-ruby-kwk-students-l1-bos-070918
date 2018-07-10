@@ -1,7 +1,7 @@
 
-def say_hello(your_name, my_name)
-  puts "Hello #{your_name}, I'm #{my_name}!"
+def say_hello(name = gets.chomp)
+  puts "Hello #{name}!"
 end
 
 
-say_hello("Maggie", "Grace")
+say_hello("Gabriella")
