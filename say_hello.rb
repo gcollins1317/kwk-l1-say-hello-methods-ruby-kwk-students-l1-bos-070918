@@ -4,4 +4,4 @@ def say_hello(name = gets.chomp)
 end
 
 
-say_hello("Gabriella")
+say_hello()
